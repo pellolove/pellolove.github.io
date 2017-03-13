@@ -1,85 +1,32 @@
-# 改变 Jekyll 读取文件的目录Site Source
-# source: source
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# Site Destination
-# 改变 Jekyll 写入文件的目录
-# destination: dist
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: PelloScript
+email: pellolove@hotmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  一点点关于技术，关于前端的成长
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: pellolove
+github_username:  pellolove
 
-# 设置时区，这个设置作用于 TZ 变量
-# 默认值为操作系统的时区。
-# timezone: TIMEZONE
-
-#  以下是默认的参数
-# source:      .
-# destination: ./_site
-# plugins:     ./_plugins
-# layouts:     ./_layouts
-# include:     ['.htaccess']
-# exclude:     []
-# keep_files:  ['.git','.svn']
-# gems:        []
-# timezone:    nil
-# encoding:    nil
-
-# future:      true
-# show_drafts: nil
-# limit_posts: 0
-# highlighter: pygments
-
-# relative_permalinks: true
-
-# permalink:     date
-# paginate_path: 'page:num'
-# paginate:      nil
-
-# markdown:      maruku
-# markdown_ext:  markdown,mkd,mkdn,md
-# textile_ext:   textile
-
-# excerpt_separator: "\n\n"
-
-# safe:        false
-# watch:       false    # deprecated
-# server:      false    # deprecated
-# host:        0.0.0.0
-# port:        4000
-# baseurl:     /
-# url:         http://localhost:4000
-# lsi:         false
-
-# maruku:
-#   use_tex:    false
-#   use_divs:   false
-#   png_engine: blahtex
-#   png_dir:    images/latex
-#   png_url:    /images/latex
-#   fenced_code_blocks: true
-
-# rdiscount:
-#   extensions: []
-
-# redcarpet:
-#   extensions: []
-
-# kramdown:
-#   auto_ids: true
-#   footnote_nr: 1
-#   entity_output: as_char
-#   toc_levels: 1..6
-#   smart_quotes: lsquo,rsquo,ldquo,rdquo
-#   use_coderay: false
-
-#   coderay:
-#     coderay_wrap: div
-#     coderay_line_numbers: inline
-#     coderay_line_numbers_start: 1
-#     coderay_tab_width: 4
-#     coderay_bold_every: 10
-#     coderay_css: style
-
-# redcloth:
-#   hard_breaks: true
-
-
-
+# Build settings
+markdown: kramdown
 theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock  
