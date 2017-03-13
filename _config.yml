@@ -1,1 +1,86 @@
-theme: jekyll-theme-cayman
+# 改变 Jekyll 读取文件的目录Site Source
+# source: source
+
+# Site Destination
+# 改变 Jekyll 写入文件的目录
+# destination: dist
+
+# 设置时区，这个设置作用于 TZ 变量
+# 默认值为操作系统的时区。
+# timezone: TIMEZONE
+
+#  以下是默认的参数
+# source:      .
+# destination: ./_site
+# plugins:     ./_plugins
+# layouts:     ./_layouts
+# include:     ['.htaccess']
+# exclude:     []
+# keep_files:  ['.git','.svn']
+# gems:        []
+# timezone:    nil
+# encoding:    nil
+
+# future:      true
+# show_drafts: nil
+# limit_posts: 0
+# highlighter: pygments
+
+# relative_permalinks: true
+
+# permalink:     date
+# paginate_path: 'page:num'
+# paginate:      nil
+
+# markdown:      maruku
+# markdown_ext:  markdown,mkd,mkdn,md
+# textile_ext:   textile
+
+# excerpt_separator: "\n\n"
+
+# safe:        false
+# watch:       false    # deprecated
+# server:      false    # deprecated
+# host:        0.0.0.0
+# port:        4000
+# baseurl:     /
+# url:         http://localhost:4000
+# lsi:         false
+
+# maruku:
+#   use_tex:    false
+#   use_divs:   false
+#   png_engine: blahtex
+#   png_dir:    images/latex
+#   png_url:    /images/latex
+#   fenced_code_blocks: true
+
+# rdiscount:
+#   extensions: []
+
+# redcarpet:
+#   extensions: []
+
+# kramdown:
+#   auto_ids: true
+#   footnote_nr: 1
+#   entity_output: as_char
+#   toc_levels: 1..6
+#   smart_quotes: lsquo,rsquo,ldquo,rdquo
+#   use_coderay: false
+
+#   coderay:
+#     coderay_wrap: div
+#     coderay_line_numbers: inline
+#     coderay_line_numbers_start: 1
+#     coderay_tab_width: 4
+#     coderay_bold_every: 10
+#     coderay_css: style
+
+# redcloth:
+#   hard_breaks: true
+
+
+
+
+# theme: jekyll-theme-cayman
