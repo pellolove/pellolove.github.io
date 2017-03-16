@@ -65,8 +65,7 @@ iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex
 
  
 ```js
-git clone  https://github.com/AkshayAgarwal007/Jekyll-Mono.git
- 
+git clone  https://github.com/AkshayAgarwal007/Jekyll-Mono.git 
 ```  
 然后，  
 ```
