@@ -63,9 +63,10 @@ iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex
 ### 3. 运行   
 这里运行建议使用其他人的模板开始，自己可以重新开始做一个，但是呢，现在还是流行脚手架，推荐一个[Jekyll-Mono](https://github.com/AkshayAgarwal007/Jekyll-Mono),别问为什么是这个，我就是抄他的（~0。0~）。具体git的操作这里就不做多备注了，我这里是git clone在D:/workspace  
 
-```git
-git clone  https://github.com/AkshayAgarwal007/Jekyll-Mono.git 
-
+ 
+```js
+git clone  https://github.com/AkshayAgarwal007/Jekyll-Mono.git
+ 
 ```  
 然后，  
 ```
