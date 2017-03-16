@@ -3,6 +3,7 @@ published: true
 layout: post
 date: '2017-03-14 31:00:00 +0800'
 categories: Hello
+title: 行动
 ---
 ##  行动  
 不要总是问我自己准备好了没有，我要的是行动，不要花时间在所谓的准备上面，我只能给自己行动留下来时间。  
