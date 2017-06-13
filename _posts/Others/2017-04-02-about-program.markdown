@@ -1,5 +1,6 @@
 ---
 layout: post
+published: false
 title:  "谈谈我和程序"
 date:   2017-04-02 06:00:00 +0800
 categories: 关于工作

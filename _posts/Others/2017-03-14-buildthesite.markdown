@@ -1,5 +1,7 @@
 ---
 layout: post
+published: false
+
 title:  "关于个人站点建设"
 date:   2017-03-14 06:39:06 +0800
 categories: 简单流程

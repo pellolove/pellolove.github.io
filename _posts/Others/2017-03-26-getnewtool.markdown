@@ -1,5 +1,6 @@
 ---
 layout: post
+published: false
 title:  "得到了一个新的工具 Mac pro"
 date:   2017-03-26 06:39:06 +0800
 categories: 工具
